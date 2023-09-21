@@ -64,5 +64,21 @@ document.write('<h2 style="color: blue;">Array do objeto</h2><br>');
 
 // 3ª Digitação (Aqui)
 
+let filmesFamosos = [
+    {
+        titulo: 'Pulp Fiction',
+        diretor: 'Quentin Tarantino',
+    },
 
+    {
+        titulo: 'The Godfather',
+        diretor: 'Francis Ford Copple',
+    },
 
+    {
+        titulo: 'Inception',
+        diretor: 'Cristopher Nolan',
+    }
+]
+
+document.write(`Meu filme favorito é: <strong>${filmesFamosos[1].titulo}</strong> Dirigido por: <strong>${filmesFamosos[1].diretor}</strong>,`)
