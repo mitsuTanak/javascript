@@ -33,6 +33,14 @@ let equipesF1 = [
     ['McLaren', 'Haas', 'AlphaTauri', 'Alpine', 'Williams'], // 1
 ];
 
+
+
 // Exibir Red Bull
+
+document.write("A Melhor equipe da F1 é a:" +equipesF1[0] [2])
+document.write("A Segunda Melhor equipe da F1 é a:" +equipesF1[0] [0])
+document.write("A Terceira Melhor equipe da F1 é a:" +equipesF1[0] [1])
+
+
 
 // 2ª Digitação (Aqui)
