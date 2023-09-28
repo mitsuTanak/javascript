@@ -5,18 +5,18 @@ document.write('<h2 style="color: blue;">Resolução</h2><br>');
 // Digite a resolução do exercício aqui e visualize o resultado no navegador
 
 let repeticao
-let nomes = {
+let nomes = [
 
-    N1: 'Pedro',
-    N2: 'Livia',
-    N3: 'Gabi',
-    N4: 'Sophia',
-    N5: 'Victor'
-}
+    'Gabi',
+    'Livia',
+    'Pedro',
+    'Sophia',
+    'Victor'
+]
 
-for (repeticao = 0; repeticao < 6; repeticao ++){
+for (repeticao = 0; repeticao < 5; repeticao ++){
 
-    document.write(`${nomes}`)
+    document.write(`${nomes[repeticao]}<br>`)
     console.log(repeticao)
 }
 

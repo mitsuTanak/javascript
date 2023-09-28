@@ -12,9 +12,6 @@ let carroFerrari = {
     cor: 'Vermelho',
     potência: '960 CV',
     preco: 14000000
-
-    
-    
 };
 let preco = carroFerrari.preco.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 
