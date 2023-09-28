@@ -91,7 +91,7 @@ Opçôes do Chat Bot:
 3 -> dúvidas
 x -> opçao desconhecida, direcionar para um humano */
 
-let opcao = 4;
+let opcao = 2;
 let textoOpcao;
 
 
@@ -100,10 +100,13 @@ let textoOpcao;
 switch (opcao) {
     case 1:
         textoOpcao = 'Legal, o que deseja saber?';
+    break;
     case 2:
         textoOpcao = 'Que pena, oque aconteceu';
+    break;    
     case 3:
         textoOpcao = 'Certo, qual a duvida';
+    break;
     case 4:
         textoOpcao = 'Hum, não entendi... vou tranferir';
     break;
@@ -122,7 +125,8 @@ document.write('<h2 style="color: blue;">Operadores de comparação</h2><br>');
 
 
 // 5ª Digitação (Aqui)
-
+let a = 10
+let b = '10'
 
 // == se é igual/ === estritamente igual (até tipo de dados)
 document.write(a == b); // True ou false
