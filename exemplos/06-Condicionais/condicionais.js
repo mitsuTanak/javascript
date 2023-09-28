@@ -26,7 +26,7 @@ if (idade > 18) {
 console.log(mensagem);
 document.write(`${mensagem}<br>`); 
 
-document.write("__________________________________________________________________<br>");
+document.write("<hr><br>");
 
 // condicional aninhada
 document.write('<h2 style="color: blue;">Condicional aninhada</h2><br>');
@@ -49,7 +49,7 @@ if (idade >= 60) {
 
 document.write(`${nome}, ${mensagem} <br>`); // Mostra a tela (Navegador)
 
-document.write("__________________________________________________________________<br>");
+document.write("<hr><br>");
 
 // condicional aninhada
 document.write('<h2 style="color: blue;">Exercício notas, média e Aprovado e Reprovado</h2><br>');
@@ -78,7 +78,7 @@ situacao = media >= 7 ? 'Aprovado!' : 'Reprovado';
 document.write(`Média: ${media}<br> `)
 document.write(`Status: ${situacao}<br>`); // Mostra a tela (Navegador)
 
-document.write("__________________________________________________________________<br>");
+document.write("<hr><br>");
 
 // condicional aninhada
 document.write('<h2 style="color: blue;">Switch Case</h2><br>');
@@ -97,12 +97,23 @@ let textoOpcao;
 
 
 // 4ª Digitação (Aqui)
+switch (opcao) {
+    case 1:
+        textoOpcao = 'Legal, o que deseja saber?';
+    case 2:
+        textoOpcao = 'Que pena, oque aconteceu';
+    case 3:
+        textoOpcao = 'Certo, qual a duvida';
+    case 4:
+        textoOpcao = 'Hum, não entendi... vou tranferir';
+    break;
+}
 
 
 document.write(`Você escolheu a opção ${opcao} <br>`);
 document.write(`${textoOpcao} <br>`);
 
-document.write("__________________________________________________________________<br>");
+document.write("<hr><br>");
 
 // condicional aninhada
 document.write('<h2 style="color: blue;">Operadores de comparação</h2><br>');
